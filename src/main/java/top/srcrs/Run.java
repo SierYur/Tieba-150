@@ -161,7 +161,7 @@ public class Run
         String body = "text="+text+"&desp="+"TiebaSignIn运行结果\n\n"+desp;
         StringEntity entityBody = new StringEntity(body,"UTF-8");
         HttpClient client = HttpClients.createDefault();
-        HttpPost  httpPost = new  HttpPost ("https://api.day.app/Kp4yd2tNATYDZbT7zxBM9G/"+sckey);
+        HttpPost httpPost = new HttpPost("https://sc.ftqq.com/"+sckey+".send");
         httpPost.addHeader("Content-Type","application/x-www-form-urlencoded");
         httpPost.setEntity(entityBody);
         HttpResponse resp = null;
